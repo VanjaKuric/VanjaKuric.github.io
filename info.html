@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>About</title>
+</head>
+<body>
+    <div id="BarraBlu">
+        <img class="logo" src="imgs/logo3.jpg" alt="vero logo faccebuk">
+        <p id="titolo">FACCEBUK</p>
+    </div>
+    <a href="index.html"><button class="bottoni"><p class="testo">HOME</p></button></a>  
+    <p id="scopri" onclick="scopri()">scopri perche non denunciarmi</p>
+    <img src="https://www.commissariatodips.it/images/25_anni.jpg" alt="">
+    <script>
+        function scopri(){
+            document.getElementById("scopri").innerHTML = "e un progetto per un corso universitario";
+            document.getElementById("scopri").style.color = "red";
+        }
+    </script>
+</body>
+</html>

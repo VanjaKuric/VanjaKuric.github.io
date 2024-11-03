@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>Sign-up</title>
+</head>
+<body>
+    <div id="BarraBlu">
+        <img class="logo" src="imgs/logo2.jpg" alt="vero logo faccebuk">
+        <p id="titolo">FACCEBUK</p>
+    </div>
+    
+    <a href="index.html"><button class="bottoni"><p class="testo">HOME</p></button></a>
+    <button class="bottoni" style="color: aliceblue;" onclick="mostraimg()">scopri carte di credito accetate</button></a> <br> <br>
+    <img id="credito" src="https://assets.ntextil.it/images/responsive/checkout/credit_card_big.png" alt="" style="height: 10vh; width: auto; visibility: hidden;"> <br>
+    <form action="info.html">
+        <label >Nome:</label><br>
+        <input type="text"><br>
+        <label>Cognome:</label><br>
+        <input type="text"><br><br>
+        <label>Carta di Credito:</label><br>
+        <input type="text"><br><br>
+        <label>CVV:</label><br>
+        <input type="text"><br><br>
+        <label>Scadenza:</label><br>
+        <input type="text"><br><br>
+        <label>Iban:</label><br>
+        <input type="text"><br><br>
+        <label>Password:</label><br>
+        <input type="text"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        function mostraimg(){
+            var img = document.getElementById("credito");
+            if(img.style.visibility == "hidden"){
+                img.style.visibility = "visible";
+            }else{
+                img.style.visibility = "hidden";
+            }
+        }
+    </script>
+</body>
+</html>

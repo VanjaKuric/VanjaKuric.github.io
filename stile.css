@@ -1,0 +1,29 @@
+#BarraBlu{
+    background-color: blue;
+    display:flex;
+    height: 30vh;
+}
+#titolo{
+    font-size: 10vh;
+    font-family:'Segoe UI';
+    color: aliceblue;
+}
+.logo{
+    height: 25vh;
+    width: auto;
+}
+.bottoni{
+    background-color:#00006F;
+}
+.testo{
+    font-size: 4vh;
+    color: blanchedalmond;
+}
+#scopri{
+    font-size: 3vh;
+    color: blue;
+    text-decoration:underline;
+}  
+#scopri:hover{
+    color: red;
+}
